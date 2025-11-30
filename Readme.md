@@ -84,16 +84,16 @@ console.log(add3(2)(3)(5)); // 10
 * Animated Calculator UI with glowing operator buttons.
 * Fixed Currying Demo panel on the right side of the screen.
 * Responsive layout on mobile.
----
-## 🚀 Live Demo
+ ## 🚀 Live Demo
 🔗 *GitHub Pages Link:*  
-https://saiheroforking.github.io/day-2/
+https://saiheroforking.github.io/Day-1/
 
 ---
 
 ## 📸 Project Preview
 
-![Project Screenshot] (./Screenshot 2025-11-30 225232.png)
+![Project Screenshot](./Screenshot%202025-11-30%20225232.png)
+
 
 ---
 
