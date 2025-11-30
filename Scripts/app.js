@@ -11,7 +11,6 @@ const btnDot = document.getElementById("dot");
 const btnEquals = document.getElementById("equals");
 const btnAbout = document.getElementById("btn-about");
 const btnHelp = document.getElementById("btn-help");
-
 const curryOutput = document.getElementById("curry-output");
 const btnGreet = document.getElementById("btn-greet");
 const btnAdvAdd = document.getElementById("btn-advadd");
