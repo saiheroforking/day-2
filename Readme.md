@@ -86,7 +86,7 @@ console.log(add3(2)(3)(5)); // 10
 * Responsive layout on mobile.
  ## 🚀 Live Demo
 🔗 *GitHub Pages Link:*  
-https://saiheroforking.github.io/Day-1/
+https://saiheroforking.github.io/day-2/
 
 ---
 
