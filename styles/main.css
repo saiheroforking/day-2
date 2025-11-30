@@ -133,7 +133,6 @@ button:active {
     }
 }
 
-/* Position curry box fixed to the right side of the screen */
 #curry-box {
     width: 320px;
     position: fixed;       
@@ -231,8 +230,6 @@ button:active {
     }
 }
 
-
-/* apply animations */
 .btn-op {
     animation: glow 3s infinite
 }
@@ -245,8 +242,6 @@ button:active {
     animation: shake .45s linear
 }
 
-
-/* responsive */
 @media (max-width:420px) {
     .calculator {
         padding: 12px
@@ -262,8 +257,6 @@ button:active {
     }
 }
 
-
-/* subtle hover */
 button:hover {
     transform: translateY(-4px)
 }
