@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Animated Calculator</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="Scripts/app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <div id="curry-box">
+            <h3>⚡ Currying Demo (Interactive)</h3>
+
+            <button id="btn-greet">Generate Greeting</button>
+            <button id="btn-advadd">Advanced Add (Currying)</button>
+
+            <pre id="curry-output"></pre>
+        </div>
+
+        <div class="calculator" id="calculator" role="application" aria-label="Animated Calculator">
+
+            <div class="toprow">
+                <div>
+                    <div class="title">Animated Calculator</div>
+                    
+                </div>
+
+                <div style="display:flex;gap:8px;">
+                    <button id="btn-about" title="About (uses navigator)">About</button>
+                    <button id="btn-help" title="Quick tips">Help</button>
+                </div>
+            </div>
+
+            <div class="display" id="display" aria-live="polite">
+                <div class="history" id="history">&nbsp;</div>
+                <div class="output" id="output">0</div>
+            </div>
+
+            <div class="pad" id="pad" role="group" aria-label="Calculator buttons">
+                <button class="btn-clear" id="clear">C</button>
+                <button id="back">⌫</button>
+                <button id="percent">%</button>
+                <button class="btn-op" data-op="/">÷</button>
+
+                <button data-num="7">7</button>
+                <button data-num="8">8</button>
+                <button data-num="9">9</button>
+                <button class="btn-op" data-op="*">×</button>
+
+                <button data-num="4">4</button>
+                <button data-num="5">5</button>
+                <button data-num="6">6</button>
+                <button class="btn-op" data-op="-">−</button>
+
+                <button data-num="1">1</button>
+                <button data-num="2">2</button>
+                <button data-num="3">3</button>
+                <button class="btn-op" data-op="+">+</button>
+
+                <button id="plusminus">±</button>
+                <button data-num="0">0</button>
+                <button id="dot">.</button>
+                <button class="btn-equal" id="equals">=</button>
+            </div>
+
+        </div> 
+
+    </div> 
+
+</body>
+
+</html>
