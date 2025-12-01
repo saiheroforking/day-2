@@ -116,36 +116,20 @@ button:active {
     font-size: 14px;
 }
 
-.layout {
-    display: grid;
-    grid-template-columns: 360px 320px;
-    gap: 20px;
-    align-items: start;
-    justify-content: center;
-    width: 100%;
-}
-
-
-@media (max-width: 850px) {
-    .layout {
-        grid-template-columns: 1fr;  
-        justify-items: center;       
-    }
-}
 
 #curry-box {
     width: 320px;
-    position: fixed;       
-    top: 200px;             
-    right: 360px;           
-    height: calc(55vh - 40px); 
-    overflow-y: auto;    
+    position: fixed;
+    top: 200px;
+    right: 360px;
+    height: calc(55vh - 40px);
+    overflow-y: auto;
     background: var(--glass);
     padding: 14px;
     border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
     font-family: monospace;
-    animation: popIn .45s ease both;  
+    animation: popIn .45s ease both;
 }
 
 
@@ -173,11 +157,18 @@ button:active {
 
 /* Responsive: stack vertically on mobile */
 @media (max-width: 850px) {
+    #curry-box {
+        position: static;
+        width: 100%;
+        max-width: 360px;
+        margin-top: 20px;
+    }
+
     .layout {
+        display: flex;
         flex-direction: column;
         align-items: center;
-
-
+        gap: 20px;
     }
 }
 
