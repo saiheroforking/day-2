@@ -151,7 +151,7 @@ try {
 
 let tdzVar = "Now initialized!";
 
-const curryAdd = (a)=>(b) => a + b;
+const curryAdd = (a) => (b) => a + b;
 print("Currying Example: 5 + 7 = " + curryAdd(5)(7));
 
 function stackA() { stackB(); }
@@ -168,6 +168,6 @@ btnGreet.addEventListener("click", () => {
 });
 
 btnAdvAdd.addEventListener("click", () => {
-    const add = (x)=>(y)=>(z) => x + y + z;
+    const add = (x) => (y) => (z) => x + y + z;
     print("Advanced Add (2+3+5) = " + add(2)(3)(5));
 });
